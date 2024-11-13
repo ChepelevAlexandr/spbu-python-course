@@ -1,4 +1,3 @@
-
 from typing import List
 
 
@@ -79,4 +78,3 @@ def matrix_trans(m: List[List[float]]) -> List[List[float]]:
         The transposed matrix.
     """
     return list(map(list, zip(*m)))
-    
