@@ -38,7 +38,7 @@ def test_matrix_mul():
     # Multiplication with a zero matrix
     assert matrix_mul([[2, 3]], [[0], [0]]) == [[0]]
 
-     # Test with non-square matrices (2x3 and 3x2)
+    # Test with non-square matrices (2x3 and 3x2)
     assert matrix_mul([[1, 2, 3], [4, 5, 6]], [[7, 8], [9, 10], [11, 12]]) == [
         [58, 64],
         [139, 154],
@@ -74,3 +74,4 @@ def test_matrix_trans():
 
     # Boundary case: an empty matrix
     assert matrix_trans([]) == []
+    
