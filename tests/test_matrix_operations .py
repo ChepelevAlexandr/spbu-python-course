@@ -1,4 +1,3 @@
-
 import pytest
 
 import math
@@ -74,4 +73,3 @@ def test_matrix_trans():
 
     # Boundary case: an empty matrix
     assert matrix_trans([]) == []
-    
