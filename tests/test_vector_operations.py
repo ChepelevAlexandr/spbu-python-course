@@ -1,5 +1,4 @@
-﻿
-import pytest
+﻿import pytest
 import math
 
 import sys
